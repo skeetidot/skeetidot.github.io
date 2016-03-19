@@ -14,8 +14,47 @@
 </head>
 
 <body>
+    
+    <header>
+        <h1>Lauren Winkler: Mapping Portfolio</h1>
+        <h2>Print and Web Cartography developed for the New Maps Plus program at the University of Kentucky</h2>
+    </header>
 
-    <p>Hello World! I’m going to be a portfolio page.</p>
+    <section>     
+        <a href="maps/Appalachian_Trail.pdf" target="_blank"><img src="images/AppalachianTrail.png" alt="Appalachian Trail map"></a>
+        <h3><a href="maps/Appalachian_Trail.pdf" target="_blank">The Appalachian Trail</a></h3>
+        <p>This print map displays the Appalachian Trail on a georeferenced copy of the 1957 Landforms of the United States map by Erwin Raisz.</p>
+        <ul>
+            <li>See the map: <a href="maps/Appalachian_Trail.pdf" target="_blank">The Appalachian Trail</a></li>
+            <li>Data sources: <a href="http://www.raiszmaps.com/" target="_blank">Landforms of the United States by Erwin Raisz (1957)</a>, <a href= "http://www.appalachiantrail.org/home/explore-the-trail/gis-data" target="_blank">Appalachian Trail Conservancy</a>, <a href="https://www.census.gov/geo/maps-data/data/tiger.html" target="_blank">US Census Bureau TIGER Products</a>, and <a href="http://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-graticules/" target="_blank">Natural Earth</a></li>
+            <li>Software used: QGIS</li>
+        </ul>
+    </section>
+    
+    <section>     
+        <a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank"><img src="images/PAHistoricTrussBridges.png" alt="Web map thumbnail of Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania"></a>
+        <h3><a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank">Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania</a></h3>
+        <p>In 2001, an assessment showed that Pennsylvania had 333 historically significant metal truss bridges. Since then, 40% of those bridges intended to be preserved have been demolished. This web map shows the state of historically significant metal truss bridges in Pennsylvania and identifies which counties and Pennsylvania Department of Transportation engineering districts have been most and least successful at their preservation. Users can hover over a county to see the percent of bridges remaining, zoom in to see the status of each bridge, and click each bridge to see  additional information.</p>
+        <ul>
+            <li>See the map: <a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank">Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania</a></li>
+            <li>Data sources: <a target = '_blank'  href="http://paprojectpath.org/docs/penndot-crm---general-documents/historic-bridge-excel-table.xls?sfvrsn=2">2001 Pennsylvania Historic Bridge Survey</a>, <a href="http://www.pasda.psu.edu/uci/SearchResults.aspx?originator=Pennsylvania%20Department%20of%20Transportation&Keyword=&sessionID=835235200201631944548&searchType=originator&entry=PASDA" target="_blank">PennDOT</a>, <a href="https://www.google.com/maps/@37.6,-95.665,4z" target="_blank">Google Maps aerial imagery and Street View</a>, <a href="http://bridgehunter.com/" target="_blank">Bridgehunter</a>, <a href="http://historicbridges.org/" target="_blank">HistoricBridges.org</a>, and local knowledge</li>
+            <li>Software used: CartoDB, QGIS</li>
+        </ul>
+    </section>
+    
+    <section>     
+        <a href="#" target="_blank"><img src="images/CoalHydroWindPowerPlants.png" alt="Web map thumbnail of Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US"></a>
+        <h3><a href="#" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></h3>
+        <p>This map displays coal, hydroelectric, and wind power plants in the US. The size of the circle indicates the total capacity of the power plant from all of its fuel sources, in megawatts.</p>
+        <p>Power plants from each fuel source are stored in a separate layer. Users can turn each layer on and off through the table of contents.</p>
+        <p>Users can also click a point on the map to see only power plants within 500 km of that point, along with their total electricity capacity, per fuel source. After selecting an area of interest, users can click a specific power plant to see a popup showing its name, fuel sources, and distance from the point clicked.</p>
+        <ul>
+            <li>See the map: <a href="#" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></li>
+            <li>Data sources: Electricity generating power plants across the US, obtained from <a target = '_blank'  href="http://www.eia.gov/electricity/data/eia923/">EIA form 923</a></li>
+            <li>Development languages: <a href="http://leafletjs.com/">Leaflet JavaScript API</a>, HTML, CSS</li>
+            <li>Software used: GitHub, Brackets</li>
+        </ul>
+    </section>    
     
 </body>
 </html>
