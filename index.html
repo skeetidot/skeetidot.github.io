@@ -10,29 +10,35 @@
     <!-- Add normalize.css to normalize default styles across browsers -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
     
-    <!-- Add Imprima from Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
+    <!-- Add Google Fonts -->    
+    <link href='https://fonts.googleapis.com/css?family=Overlock' rel='stylesheet' type='text/css'>
     
-    <!-- Add Dosis from Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <style>
         
         body {
             background: #f5f5f5;
-            font-family: Imprima, sans-serif;
+            font-family: "Open Sans", sans-serif;
         }
         
         header {
             width: 100%;
             min-width: 800px;
-            margin: 0 auto;
+            margin: -140px auto;
             background: steelblue;
             padding: 15px 0 20px;
+            position: fixed;
+        }
+        
+        .container {
+            margin-top: 140px;
         }
         
         h1 {
-            font-family: Dosis, sans-serif;
+            font-family: Antic, sans-serif;
             color: #374671;
             width: 80%;
             margin: 0 auto;
@@ -40,32 +46,37 @@
         }
         
         h2 {
-            font-family: Dosis, sans-serif;
+            font-family: Antic, sans-serif;
+            font-style: italic;
             color: #375671;
+            font-weight: 400;
             width: 80%;
             margin: 0 auto;
             color: whitesmoke;
         }
         
         h3 {
-            font-family: Dosis, sans-serif;
+            font-family: Overlock, sans-serif;
             color: #003d71;
+            margin-bottom: -5px;
         }
         
         p {
-            font-size: .9em;
-            color: #375671;
+            font-size: .85em;
+            color: #262626;
+            line-height: 1.4em;
         }
         
         ul {
             list-style-type: none;
-            font-size: .9em;
-            color: #375671;
+            font-size: .8em;
+            color: #262626;
             line-height: 1.6em;
         }
         
         a, a:visited {
             color: #003d71;
+            
         }
         
         /*Project sections and images*/
@@ -88,6 +99,7 @@
             background: white;
             float: left;
             margin-right: 20px;
+            margin-bottom: 10px;
             border: 2px solid #dddddd;
         }
         
@@ -101,39 +113,67 @@
         <h2>Print and Web Cartography Portfolio</h2>
     </header>
 
-    <section class="project">
-        <a href="maps/Appalachian_Trail.pdf" target="_blank"><img src="images/AppalachianTrail_cropped.png" alt="Appalachian Trail map" class="project-image"></a>
-        <h3><a href="maps/Appalachian_Trail.pdf" target="_blank">The Appalachian Trail</a></h3>
-        <p>This print map displays the Appalachian Trail on a georeferenced copy of the 1957 Landforms of the United States map by Erwin Raisz.</p>
-        <ul>
-            <li>See the map: <a href="maps/Appalachian_Trail.pdf" target="_blank">The Appalachian Trail</a></li>
-            <li>Data sources: <a href="http://www.raiszmaps.com/" target="_blank">Landforms of the United States by Erwin Raisz (1957)</a>, <a href="http://www.appalachiantrail.org/home/explore-the-trail/gis-data" target="_blank">Appalachian Trail Conservancy</a>, <a href="https://www.census.gov/geo/maps-data/data/tiger.html" target="_blank">US Census Bureau TIGER Products</a>, and <a href="http://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-graticules/" target="_blank">Natural Earth</a></li>
-            <li>Software used: QGIS</li>
-        </ul>
-    </section>
+    <section class="container">
+    
+        <section class="project">
+            <a href="maps/Appalachian_Trail.pdf" target="_blank"><img src="images/AppalachianTrail_cropped.png" alt="Appalachian Trail map" class="project-image"></a>
+            <h3><a href="maps/Appalachian_Trail.pdf" target="_blank">The Appalachian Trail</a></h3>
+            <p>This print map displays the Appalachian Trail on a georeferenced copy of the 1957 Landforms of the United States map by Erwin Raisz.</p>
+            <ul>
+                <li><b>See the map: </b><a href="maps/Appalachian_Trail.pdf" target="_blank">The Appalachian Trail</a></li>
+                <li><b>Data sources: </b><a href="http://www.raiszmaps.com/" target="_blank">Landforms of the United States by Erwin Raisz (1957)</a>, <a href="http://www.appalachiantrail.org/home/explore-the-trail/gis-data" target="_blank">Appalachian Trail Conservancy</a>, <a href="https://www.census.gov/geo/maps-data/data/tiger.html" target="_blank">US Census Bureau TIGER Products</a>, and <a href="http://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-graticules/" target="_blank">Natural Earth</a></li>
+                <li><b>Software used: </b><a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a></li>
+            </ul>
+        </section>
+        
+        <section class="project">
+            <a href="maps/Pittsburgh_Bridges_Poster.jpg" target="_blank"><img src="images/PittsburghBridges.png" alt="Pittsburgh's Bridges poster" class="project-image"></a>
+            <h3><a href="maps/Pittsburgh_Bridges_Poster.jpg" target="_blank">Pittsburgh's Bridges</a></h3>
+            <p>Pittsburgh is the City of Bridges, and what remarkable bridges they are! The area's challenging topography of deep ravines and mighty rivers -- the Monongahela, Allegheny, and Ohio -- set the stage for engineers, architects, and contractors to conquer the terrain with a variety of distinctive spans. Many were designed to be beautiful as well as functional. While other cities may have one signature bridge, Pittsburgh has such a wide variety that no single bridge can represent it. Pittsburgh's Bridges takes a comprehensive look at the design, construction, and, sometimes, demolition of the bridges that shaped Pittsburgh, ranging from the covered bridges of yesterday to those that define the skyline today. This map highlights the river bridges -- past and present -- featured in the book. It was presented at the 2015 NACIS conference.</p>
+            <ul>
+                <li><b>See the map: </b><a href="maps/Pittsburgh_Bridges_Poster.jpg" target="_blank">Pittsburgh's Bridges</a></li>
+                <li><b>Data sources: </b><a href="http://www.amazon.com/Pittsburghs-Bridges-Images-America-Wilson/dp/1467134244" target="_blank">Pittsburgh's Bridges (Images of America), by Todd Wilson, PE and Helen Wilson (Arcadia Publishing)</a>, <a href="http://pittsburghpa.gov/dcp/gis/gis-data" target="_blank">City of Pittsburgh</a>, <a href="http://www.pasda.psu.edu/uci/SearchResults.aspx?originator=Allegheny%20County&Keyword=&sessionID=405818048201632052046&searchType=originator&entry=PASDA" target="_blank">Allegheny County</a>, and <a href="http://www.pasda.psu.edu/uci/SearchResults.aspx?originator=DCNR%20PAMAP%20Program&Keyword=&sessionID=734309184201632052145&searchType=originator&entry=PASDA" target="_blank">Pennsylvania Department of Conservation and Natural Resources</a></li>
+                <li><b>Software used: </b><a href="http://desktop.arcgis.com/en/" target="_blank">ArcGIS for Desktop</a>, <a href="http://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a></li>
+            </ul>
+        </section>
+        
+        <section class="project">
+            <a href="https://skeetidot.cartodb.com/viz/8b09e346-95a1-11e5-9723-0e3ff518bd15/embed_map" target="_blank"><img src="images/USCancerMortalityRates.png" alt="Web map thumbnail of US Cancer Mortality Rates" class="project-image"></a>
+            <h3><a href="https://skeetidot.cartodb.com/viz/8b09e346-95a1-11e5-9723-0e3ff518bd15/embed_map" target="_blank">US Cancer Mortality Rates</a></h3>
+            <p>This map shows the average cancer mortality rate from 2008-2012 in each US county, per 100,000 people.</p>
+            <p>Users can click a county to see its specific cancer mortality rate.</p>
+            <ul>
+                <li><b>See the map: </b> <a href="https://skeetidot.cartodb.com/viz/8b09e346-95a1-11e5-9723-0e3ff518bd15/embed_map" target="_blank">US Cancer Mortality Rates</a></li>
+                <li><b>Data sources: </b><a  href="http://www.statecancerprofiles.cancer.gov" target='_blank'>National Cancer Institute's State Cancer Profiles</a>, <a href="https://www.census.gov/geo/maps-data/data/tiger.html" target="_blank">US Census Bureau TIGER Products</a></li>
+                <li><b>Software used: </b><a href="https://cartodb.com/" target="_blank">CartoDB</a></li>
+            </ul>
+        </section>
 
-    <section class="project">
-        <a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank"><img src="images/PAHistoricTrussBridges.png" alt="Web map thumbnail of Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania" class="project-image"></a>
-        <h3><a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank">Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania</a></h3>
-        <p>In 2001, an assessment showed that Pennsylvania had 333 historically significant metal truss bridges. Since then, 40% of those bridges intended to be preserved have been demolished. This web map shows the state of historically significant metal truss bridges in Pennsylvania and identifies which counties and Pennsylvania Department of Transportation engineering districts have been most and least successful at their preservation. Users can hover over a county to see the percent of bridges remaining, zoom in to see the status of each bridge, and click each bridge to see additional information.</p>
-        <ul>
-            <li>See the map: <a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank">Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania</a></li>
-            <li>Data sources: <a target='_blank' href="http://paprojectpath.org/docs/penndot-crm---general-documents/historic-bridge-excel-table.xls?sfvrsn=2">2001 Pennsylvania Historic Bridge Survey</a>, <a href="http://www.pasda.psu.edu/uci/SearchResults.aspx?originator=Pennsylvania%20Department%20of%20Transportation&Keyword=&sessionID=835235200201631944548&searchType=originator&entry=PASDA" target="_blank">PennDOT</a>, <a href="https://www.google.com/maps/@37.6,-95.665,4z" target="_blank">Google Maps aerial imagery and Street View</a>, <a href="http://bridgehunter.com/" target="_blank">Bridgehunter</a>, <a href="http://historicbridges.org/" target="_blank">HistoricBridges.org</a>, and local knowledge</li>
-            <li>Software used: CartoDB, QGIS</li>
-        </ul>
-    </section>
+        <section class="project">
+            <a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank"><img src="images/PAHistoricTrussBridges.png" alt="Web map thumbnail of Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania" class="project-image"></a>
+            <h3><a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank">Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania</a></h3>
+            <p>In 2001, an assessment showed that Pennsylvania had 333 historically significant metal truss bridges. Since then, 40% of those bridges intended to be preserved have been demolished. This CartoDB web map shows the state of historically significant metal truss bridges in Pennsylvania and identifies which counties and Pennsylvania Department of Transportation engineering districts have been most and least successful at their preservation.</p>
+            <p>Users can hover over a county to see the percent of bridges remaining, zoom in to see the status of each bridge, and click each bridge to see additional information.</p>
+            <ul>
+                <li><b>See the map: </b> <a href="https://skeetidot.cartodb.com/viz/eca35846-a17a-11e5-b5fc-0ea31932ec1d/embed_map" target="_blank">Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania</a></li>
+                <li><b>Data sources: </b><a target='_blank' href="http://paprojectpath.org/docs/penndot-crm---general-documents/historic-bridge-excel-table.xls?sfvrsn=2">2001 Pennsylvania Historic Bridge Survey</a>, <a href="http://www.pasda.psu.edu/uci/SearchResults.aspx?originator=Pennsylvania%20Department%20of%20Transportation&Keyword=&sessionID=835235200201631944548&searchType=originator&entry=PASDA" target="_blank">PennDOT</a>, <a href="https://www.google.com/maps/@37.6,-95.665,4z" target="_blank">Google Maps aerial imagery and Street View</a>, <a href="http://bridgehunter.com/" target="_blank">Bridgehunter</a>, <a href="http://historicbridges.org/" target="_blank">HistoricBridges.org</a>, and local knowledge</li>
+                <li><b>Software used: </b><a href="https://cartodb.com/" target="_blank">CartoDB</a>, <a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a></li>
+            </ul>
+        </section>
 
-    <section class="project">
-        <a href="http://skeetidot.github.io/us-power-plants/" target="_blank"><img src="images/CoalHydroWindPowerPlants.png" alt="Web map thumbnail of Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US" class="project-image"></a>
-        <h3><a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></h3>
-        <p>This map displays coal, hydroelectric, and wind power plants in the US. The size of the circle indicates the total electrical capacity of the power plant from all of its fuel sources, in megawatts.</p>
-        <p>Power plants from each fuel source are stored in layers, which users can turn on and off through the table of contents. Users can also click a point on the map to see only power plants within 500 km of that point and the total power they generate. After selecting an area of interest, users can click a specific power plant within the 500 km radius to see its name and electrical capacity.
-        <ul>
-            <li>See the map: <a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></li>
-            <li>Data sources: Electricity generating power plants across the US, obtained from <a target='_blank' href="http://www.eia.gov/electricity/data/eia923/">EIA form 923</a></li>
-            <li>Development languages: <a href="http://leafletjs.com/">Leaflet JavaScript API</a>, HTML, CSS</li>
-            <li>Software used: GitHub, Brackets</li>
-        </ul>
+        <section class="project">
+            <a href="http://skeetidot.github.io/us-power-plants/" target="_blank"><img src="images/CoalHydroWindPowerPlants.png" alt="Web map thumbnail of Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US" class="project-image"></a>
+            <h3><a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></h3>
+            <p>This Leaflet web map displays coal, hydroelectric, and wind power plants in the US. The size of the circle indicates the total electrical capacity of the power plant from all of its fuel sources, in megawatts.</p>
+            <p>Power plants from each fuel source are stored in layers, which users can turn on and off through the table of contents. Users can also click a point on the map to see only power plants within 500 km of that point and the total power they generate. After selecting an area of interest, users can click a specific power plant within the 500 km radius to see its name and electrical capacity.
+            <ul>
+                <li><b>See the map: </b> <a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></li>
+                <li><b>Data sources: </b>Electricity generating power plants across the US, obtained from <a target='_blank' href="http://www.eia.gov/electricity/data/eia923/">EIA form 923</a></li>
+                <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet JavaScript API</a>, JavaScript, HTML, CSS</li>
+                <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a></li>
+            </ul>
+        </section>
+        
     </section>
 
 </body>
