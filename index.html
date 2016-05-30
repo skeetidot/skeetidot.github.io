@@ -134,6 +134,68 @@
                 </ul>
             </div>
         </section>
+        
+        <section class="project">
+            <a href="http://skeetidot.github.io/kenya-lighting-sources/" target="_blank"><img src="images/Kenya_Lighting_Sources.png" alt="Web map thumbnail of Kenya Lighting Sources" class="project-image"></a>
+            <div>
+                <h3><a href="http://skeetidot.github.io/kenya-lighting-sources/" target="_blank">Lighting Energy Sources in Kenya</a></h3>
+                <p>This Leaflet and Mapbox web map shows the prevalence of electric lighting and traditional lighting (pressure lamp, lantern, tin lamp, gas lamp, fuel/wood, solar, and other lighting energy sources) across Kenyan counties in 2009. Electric and traditional lighting usage is represented as proportional symbols and the percentage of households using electricity per county is represented as a choropleth. Users can hover over a county to see the percentage and number of its households using each lighting source.</p>  
+                <p>This map was developed using custom JavaScript based on the Leaflet and Mapbox JavaScript APIs to import GeoJSON data for electric and traditional lighting as proportional circle markers, dynamically join the electricity usage data to county boundaries to create a choropleth map, and create custom hovers and a detail panel showing the aggregated and individual lighting usage per county.</p>
+                <p>This map utilized a mapping workflow based on Jesse James Garrett's elements of the user experience. Before developing the map, I identified the map's <a href="http://skeetidot.github.io/kenya-lighting-sources/kenya-lighting-sources-mapping-scenario.pdf" target="_blank">objectives and content and functional requirements</a> and followed an example map and a <a href="http://skeetidot.github.io/kenya-lighting-sources/kenya-lighting-sources-mockup.pdf" target="_blank">mockup</a> to guide the development process.</p>
+                <ul>
+                    <li><b>See the map: </b> <a href="http://skeetidot.github.io/kenya-lighting-sources/" target="_blank">Lighting Energy Sources in Kenya</a></li>
+                    <li><b>Data sources: </b><a href="https://www.opendata.go.ke/Distribution-and-Consumption/Main-Lighting-Energy-Sources-averaged-to-Counties-/g9hi-bs9n" target="_blank">Main Lighting Energy Sources averaged to Counties in 2009 (Kenya Open Data Portal)</a>, <a href="http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc" target="_blank">The 47 Counties of Kenya</a></li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet JavaScript API</a>, <a href="https://github.com/mapbox/leaflet-omnivore" target="_blank">Leaflet Omnivore Plugin</a>, <a href="https://www.mapbox.com/mapbox.js/api/v2.4.0/" target="_blank">Mapbox JavaScript API</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">JQuery</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>, <a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a>, Microsoft Excel</li>
+                </ul>
+            </div>
+        </section>        
+        
+        <section class="project">
+            <a href="http://skeetidot.github.io/ky-unemployment/" target="_blank"><img src="images/KY_Unemployment.png" alt="Web map thumbnail of Unemployment Rates in Kentucky: 2001-2013" class="project-image"></a>
+            <div>
+                <h3><a href="http://skeetidot.github.io/ky-unemployment/" target="_blank">Unemployment Rates in Kentucky: 2001-2013</a></h3>
+                <p>This Leaflet web map shows unemployment rates in Kentucky between 2001 and 2013.</p>
+                <p>This map was developed using custom JavaScript based on the Leaflet JavaScript API. The unemployment rate data is stored in a CSV file and joined to the county geometries using the Papa Parse JavaScript library. The unemployment rates per county are then represented as a choropleth map, using the ckmeans clustering method in the Simple Statistics library. Users can scroll the slider bar to see how unemployment rates have changed between 2001 and 2013.</p>
+                <ul>
+                    <li><b>See the map: </b> <a href="http://skeetidot.github.io/ky-unemployment/" target="_blank">Unemployment Rates in Kentucky: 2001-2013</a></li>
+                    <li><b>Data sources: </b>Unemployment Rates in Kentucky, Kentucky County Boundaries</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet JavaScript API</a>, <a href="http://papaparse.com/" target="_blank">Papa Parse</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">JQuery</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="project">
+            <a href="http://skeetidot.github.io/ky-vacant-housing/" target="_blank"><img src="images/KY_Vacant_Housing.png" alt="Web map thumbnail of Vacant Housing in Kentucky" class="project-image"></a>
+            <div>
+                <h3><a href="http://skeetidot.github.io/ky-vacant-housing/" target="_blank">Vacant Housing in Kentucky</a></h3>
+                <p>This Leaflet web map allows users to explore various types of vacant housing (rentals, houses for sale, seasonal properties, etc.) in Kentucky, as obtained from the 2010 U.S. Census. Users can select an attribute from the dropdown to explore the prevalence of that type of vacant housing across the state, click a county to view the vacancy rate for that type of housing, or hover over a county to view the total number of each type of vacant housing in that county.
+                <p>This map was developed using custom JavaScript based on the Leaflet JavaScript API with an HTML dropdown. The housing vacancy rates are represented as a choropleth map, using the ckmeans clustering method in the Simple Statistics library.</p>
+                <ul>
+                    <li><b>See the map: </b> <a href="http://skeetidot.github.io/ky-vacant-housing/" target="_blank">Vacant Housing in Kentucky</a></li>
+                    <li><b>Data sources: </b><a href="http://factfinder.census.gov/" target="_blank">American Fact Finder: 2010 Census, SF1</a>, Kentucky County Boundaries</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet JavaScript API</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">JQuery</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a></li>
+                </ul>
+            </div>
+        </section>        
+
+        <section class="project">
+            <a href="http://skeetidot.github.io/us-power-plants/" target="_blank"><img src="images/CoalHydroWindPowerPlants.png" alt="Web map thumbnail of Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US" class="project-image"></a>
+            <div>
+                <h3><a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></h3>
+                <p>This Leaflet web map displays coal, hydroelectric, and wind power plants in the US. The size of the circle indicates the total electrical capacity of the power plant from all of its fuel sources, in megawatts.</p>
+                <p>Power plants from each fuel source are stored in layers, which users can turn on and off through the table of contents. Users can also click a point on the map to see only power plants within 500 km of that point and the total power they generate. After selecting an area of interest, users can click a specific power plant within the 500 km radius to see its name and electrical capacity.</p>
+                <p>This map was developed using custom JavaScript based on the Leaflet JavaScript API to import GeoJSON data as proportional circle markers, create a layer control, create a 500 km spotlight filter around a clicked point, and create popups of aggregated and individual electricity capacities.</p>
+                <ul>
+                    <li><b>See the map: </b> <a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></li>
+                    <li><b>Data sources: </b>Electricity-generating power plants across the US, obtained from <a target='_blank' href="http://www.eia.gov/electricity/data/eia923/">EIA form 923</a></li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet JavaScript API</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>
+                </ul>
+            </div>
+        </section>        
     
         <section class="project">
             <a href="maps/Appalachian_Trail.pdf" target="_blank"><img src="images/AppalachianTrail_cropped.png" alt="Appalachian Trail map" class="project-image"></a>
@@ -177,23 +239,7 @@
                     <li><b>Software used: </b><a href="https://cartodb.com/" target="_blank">CartoDB</a>                   
                 </ul>
             </div>
-        </section>
-
-        <section class="project">
-            <a href="http://skeetidot.github.io/us-power-plants/" target="_blank"><img src="images/CoalHydroWindPowerPlants.png" alt="Web map thumbnail of Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US" class="project-image"></a>
-            <div>
-                <h3><a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></h3>
-                <p>This Leaflet web map displays coal, hydroelectric, and wind power plants in the US. The size of the circle indicates the total electrical capacity of the power plant from all of its fuel sources, in megawatts.</p>
-                <p>Power plants from each fuel source are stored in layers, which users can turn on and off through the table of contents. Users can also click a point on the map to see only power plants within 500 km of that point and the total power they generate. After selecting an area of interest, users can click a specific power plant within the 500 km radius to see its name and electrical capacity.</p>
-                <p>This map was developed using custom JavaScript based on the Leaflet JavaScript API to import GeoJSON data as proportional circle markers, create a layer control, create a 500 km spotlight filter around a clicked point, and create popups of aggregated and individual electricity capacities.</p>
-                <ul>
-                    <li><b>See the map: </b> <a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></li>
-                    <li><b>Data sources: </b>Electricity-generating power plants across the US, obtained from <a target='_blank' href="http://www.eia.gov/electricity/data/eia923/">EIA form 923</a></li>
-                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet JavaScript API</a>, JavaScript, HTML, CSS</li>
-                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a></li>
-                </ul>
-            </div>
-        </section>
+        </section>      
         
     </section>
 
