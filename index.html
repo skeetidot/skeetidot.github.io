@@ -175,6 +175,24 @@
     <section class="container">
         
         <section class="project">
+            <a href="http://webgis.uwm.edu/agsl/sanborn/" target="_blank"><img src="images/MilwaukeeSanborns.jpg" alt="Web map thumbnail of the 1910 Sanborn Maps of Milwaukee" class="project-image"></a>
+            <div>
+                <h3><a href="http://webgis.uwm.edu/agsl/sanborn/" target="_blank">1910 Sanborn Maps of Milwaukee</a></h3>
+                <p>This is a mobile-friendly web map for librarians and the public to interact with the 1910 Sanborn Maps of Milwaukee, developed as a collaboration with <a href="https://github.com/bellegis/" target="_blank">Belle Lipton</a>, of the American Geographical Society Library. We mosaicked and cached the historic maps, so that users can access them as a seamless, online dataset. Users can drag the opacity slider to compare the 1910 maps with the current city landscape and use the Esri Leaflet geocoder to search for a current address within the Milwaukee area. This map was developed using custom JavaScript based on the Leaflet and Esri Leaflet JavaScript APIs.</p>
+                
+                <p>There is another version with user contribution functionality available <a href="https://github.com/skeetidot/milwaukee-sanborn-discovery-db" target="_blank">here</a>, which allows users to contribute information about historic buildings and landmarks. This version of the app also relies on a local PostgreSQL database with PostGIS, which communicates with the application via a Java servlet and database class. See a demo of the application <a href="https://www.youtube.com/watch?v=zSWXJdqJQ74" target="_blank">here</a> and see the <a href="https://github.com/skeetidot/milwaukee-sanborn-discovery-db/blob/master/database-setup-instructions.pdf" target="_blank">database setup instructions</a> to setup this database in pgAdmin.</p>
+
+                <ul>
+                    <li><b>See the map: </b><a href="http://webgis.uwm.edu/agsl/sanborn/" target="_blank">1910 Sanborn Maps of Milwaukee</a></li>
+                    <li><b>See a demo: </b><a href="https://www.youtube.com/watch?v=zSWXJdqJQ74" target="_blank">Demo Video</a></li>
+                    <li><b>Data sources: </b><a href="http://webgis.uwm.edu/arcgisuwm/rest/services/AGSL/SanbornMaps/MapServer" target="_blank">1910 Sanborn Fire Insurance Maps</a> and polygon boundaries of each map sheet, created by the American Geographical Society Library</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="http://esri.github.io/esri-leaflet/" target="_blank">Esri Leaflet plugin</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, JavaScript, HTML, CSS, Java</li>
+                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>, <a href="http://www.eclipse.org/downloads/eclipse-packages/" target="_blank">Eclipse IDE</a>, <a href="https://www.pgadmin.org/" target="_blank">pgAdmin, with PostgreSQL and PostGIS</a>, <a href="https://enterprise.arcgis.com/en/server/" target="_blank">ArcGIS Server</a></li>
+                </ul>
+            </div>
+        </section>        
+        
+        <section class="project">
             <a href="http://skeetidot.github.io/pittsburgh-bridges/" target="_blank"><img src="images/PittsburghBridgesDynamic.jpg" alt="Web map thumbnail of the Evolution of Pittsburgh's River Bridges" class="project-image"></a>
             <div>
                 <h3><a href="http://skeetidot.github.io/pittsburgh-bridges/" target="_blank">The Evolution of Pittsburgh's River Bridges</a></h3>
@@ -185,7 +203,7 @@
                     <li><b>See the map: </b><a href="http://skeetidot.github.io/pittsburgh-bridges/" target="_blank">The Evolution of Pittsburgh's River Bridges</a></li>
                     <li><b>See a demo: </b><a href="https://youtu.be/cELWM5GscDI" target="_blank">Demo Video</a></li>
                     <li><b>Data sources: </b><i><a href="http://www.amazon.com/Pittsburghs-Bridges-Images-America-Wilson/dp/1467134244" target="_blank">Pittsburgh's Bridges (Images of America)</a></i>, <a href="http://pittsburghpa.gov/dcp/gis/gis-data-new" target="_blank">City of Pittsburgh</a>, <a href="http://www.pghbridges.com/" target="_blank">Bruce Cridlebaugh</a></li>
-                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet.js</a>, <a href="https://github.com/mapbox/leaflet-omnivore" target="_blank">Leaflet Omnivore Plugin</a>, <a href="https://www.mapbox.com/mapbox.js/api/v2.4.0/" target="_blank">Mapbox.js</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, <a href="https://jqueryui.com/" target="_blank">jQuery UI</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="https://github.com/mapbox/leaflet-omnivore" target="_blank">Leaflet Omnivore plugin</a>, <a href="https://www.mapbox.com/mapbox.js/api/v2.4.0/" target="_blank">Mapbox</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, <a href="https://jqueryui.com/" target="_blank">jQuery UI</a>, JavaScript, HTML, CSS</li>
                     <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>, Microsoft Excel</li>
                 </ul>
             </div>
@@ -229,7 +247,7 @@
                 <ul>
                     <li><b>See the map: </b> <a href="http://skeetidot.github.io/kenya-lighting-sources/" target="_blank">Lighting Energy Sources in Kenya</a></li>
                     <li><b>Data sources: </b><a href="https://www.opendata.go.ke/Distribution-and-Consumption/Main-Lighting-Energy-Sources-averaged-to-Counties-/g9hi-bs9n" target="_blank">Kenya Open Data Portal</a>, <a href="http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc" target="_blank">ArcGIS Online</a></li>
-                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet.js</a>, <a href="https://github.com/mapbox/leaflet-omnivore" target="_blank">Leaflet Omnivore Plugin</a>, <a href="https://www.mapbox.com/mapbox.js/api/v2.4.0/" target="_blank">Mapbox.js</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="https://github.com/mapbox/leaflet-omnivore" target="_blank">Leaflet Omnivore plugin</a>, <a href="https://www.mapbox.com/mapbox.js/api/v2.4.0/" target="_blank">Mapbox</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, JavaScript, HTML, CSS</li>
                     <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>, <a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a>, Microsoft Excel</li>
                 </ul>
             </div>
@@ -244,7 +262,7 @@
                 <ul>
                     <li><b>See the map: </b> <a href="http://skeetidot.github.io/ky-unemployment/" target="_blank">Unemployment Rates in Kentucky: 2001-2013</a></li>
                     <li><b>Data sources: </b>Unemployment Rates in Kentucky, Kentucky County Boundaries</li>
-                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet.js</a>, <a href="http://papaparse.com/" target="_blank">Papa Parse</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="http://papaparse.com/" target="_blank">Papa Parse</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, JavaScript, HTML, CSS</li>
                     <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a></li>
                 </ul>
             </div>
@@ -259,7 +277,7 @@
                 <ul>
                     <li><b>See the map: </b> <a href="http://skeetidot.github.io/ky-vacant-housing/" target="_blank">Vacant Housing in Kentucky</a></li>
                     <li><b>Data sources: </b><a href="http://factfinder.census.gov/" target="_blank">American Fact Finder: 2010 Census, SF1</a>, Kentucky County Boundaries</li>
-                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet.js</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="http://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, JavaScript, HTML, CSS</li>
                     <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a></li>
                 </ul>
             </div>
@@ -291,7 +309,7 @@
                 <ul>
                     <li><b>See the map: </b> <a href="http://skeetidot.github.io/us-power-plants/" target="_blank">Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US</a></li>
                     <li><b>Data sources: </b>Electricity-generating power plants across the US, obtained from <a target='_blank' href="http://www.eia.gov/electricity/data/eia923/">EIA form 923</a></li>
-                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet.js</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, JavaScript, HTML, CSS</li>
                     <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>
                 </ul>
             </div>
