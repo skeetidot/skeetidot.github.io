@@ -197,7 +197,53 @@
                     <a href="http://desktop.arcgis.com/en/" target="_blank">ArcGIS Desktop</a>, <a href="http://www.arcgis.com/index.html" target="_blank">ArcGIS Online</a></li>
                 </ul>
             </div>
-        </section>           
+        </section>   
+        
+        <section class="project">
+            <a href="https://skeetidot.github.io/ding-darling-nwr/" target="_blank"><img src="images/DingDarlingNWR.jpg" alt="Web map thumbnail of the J.N. 'Ding' Darling National Wildlife Refuge Visitor Map" class="project-image"></a>
+            <div>
+                <h3><a href="https://skeetidot.github.io/ding-darling-nwr/" target="_blank">J.N. 'Ding' Darling National Wildlife Refuge Visitor Map</a></h3>
+                <p>This site is an interactive visitor map of the J.N. "Ding" Darling National Wildlife Refuge in Sanibel, Florida. The map is focused on the themes of general tourism and ecotourism and has a mobile-friendly layout that is compatible with any desktop and mobile devices.
+                    
+                <p>Users can click any feature to get more information, filter the points of interest by category or location, view wildlife observations submitted by other visitors, and (when connected to an active CARTO API Key) submit their own sightings. Users within the park and the immediately surrounding area can also see their current location on the map, filter the points of interest to those within 1/2 mile of their current location, and (when connected to an active CARTO API Key) submit wildlife observations at their current location.</p>       
+                
+                <p>The site was developed in Leaflet, using CARTO as the spatial database and PostgreSQL and PostGIS from the CARTO SQL API  to query the database. It is based on Boilerplate HTML and Bootstrap, with user interface elements from jQuery and various Leaflet plugins.</p>
+
+                <ul>
+                    <li><b>See the map: </b><a href="https://skeetidot.github.io/ding-darling-nwr/" target="_blank">J.N. "Ding" Darling National Wildlife Refuge Visitor Map</a></li>
+                    <li><b>See a demo: </b><a href="https://www.youtube.com/watch?v=JK6WJg-0xEg" target="_blank">Demo Video</a></li>
+                    <li><b>Data sources: </b>
+                        <a href="https://services.arcgis.com/QVENGdaPbd4LUkLV/ArcGIS/rest/services/" target="_blank">U.S. Fish and Wildlife Service</a>
+                    </li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="https://carto.com/developers/sql-api/">CARTO SQL API, based on PostgreSQL and PostGIS</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, <a href="https://jqueryui.com/" target="_blank">jQuery UI</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Software used: </b><a href="https://carto.com/">CARTO</a>, <a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>, 
+                    <a href="http://desktop.arcgis.com/en/" target="_blank">ArcGIS Desktop</a>, <a href="http://www.arcgis.com/index.html" target="_blank">ArcGIS Online</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="project">
+            <a href="https://skeetidot.github.io/nitrates_cancer/" target="_blank"><img src="images/WisconsinNitratesCancer.jpg" alt="Web map thumbnail of the Spatial Analysis of Nitrates and Cancer in Wisconsin Map" class="project-image"></a>
+            <div>
+                <h3><a href="https://skeetidot.github.io/nitrates_cancer/" target="_blank">Spatial Analysis of Well Nitrates and Cancer Occurrences in Wisconsin</a></h3>
+                <p>Research suggests that there may be a link between high concentrations of nitrates (and nitrites) in drinking water and cancer, but the magnitude of that relationship is not yet known. This map uses Inverse Distance Weighted (IDW) spatial interpolation and Ordinary Least Squares (OLS) linear regression to examine the relationship, if any, between nitrate concentrations in water wells and cancer rates in Wisconsin.
+
+                <p>To examine a possible correlation between nitrate concentrations and cancer rates, users can select a distance decay coefficient (q) to use for the spatial interpolation and the hexbin size (in square kilometers). Based on this analysis, there is little correlation between nitrates in drinking water and cancer occurrences in Wisconsin over the 10 years included in the study.</p>       
+            
+                <p>The site was developed in Leaflet, using Turf for the geoprocessing, Simple Statistics to run the linear regression and generate class breaks for the resulting datasets, and the easyPrint Leaflet plugin to print the map to a PDF. It is based on Boilerplate HTML and Bootstrap, with user interface elements from jQuery and various Leaflet plugins.</p>
+
+                <ul>
+                    <li><b>See the map: </b><a href="https://skeetidot.github.io/nitrates_cancer/" target="_blank">Spatial Analysis of Well Nitrates and Cancer Occurrences in Wisconsin</a></li>
+                    <li><b>See a demo: </b><a href="https://www.youtube.com/watch?v=GV7zcDyoy7U" target="_blank">Demo Video</a></li>
+                    <li><b>Data sources: </b>
+                        Wisconsin Department of Natural Resources, provided by <a href="https://geography.wisc.edu/gis/">UW-Madison GIS Professional Programs</a>
+                    </li>
+                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="http://turfjs.org/" target="_blank">Turf</a>, <a href="https://simplestatistics.org/" target="_blank">Simple Statistics</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, <a href="https://jqueryui.com/" target="_blank">jQuery UI</a>, JavaScript, HTML, CSS</li>
+                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>, 
+                    <a href="http://desktop.arcgis.com/en/" target="_blank">ArcGIS Desktop</a></li>
+                </ul>
+            </div>
+        </section>             
         
         <section class="project">
             <a href="http://webgis.uwm.edu/agsl/sanborn/" target="_blank"><img src="images/MilwaukeeSanborns.jpg" alt="Web map thumbnail of the 1910 Sanborn Maps of Milwaukee" class="project-image"></a>
@@ -249,11 +295,27 @@
         </section>
         
         <section class="project">
+            <a href="maps/Native_American_Tribes_PA.jpg" target="_blank"><img src="images/ASCEMapsThumbnail.jpg" alt="Pennsylvania's borders map thumbnail" class="project-image"></a>
+            <div>
+                <h3><a href="maps/Native_American_Tribes_PA.jpg" target="_blank">Maps for Engineering Pittsburgh: A History of Roads, Rails, Canals, Bridges &amp; More</a></h3>
+                                
+                <p>Collaborating with the ASCE Pittsburgh Section 100th Anniversary Publication Committee, I developed four maps for their book, <a href="https://www.arcadiapublishing.com/Products/9781625859693" target="_blank"><i>Engineering Pittsburgh: A History of Roads, Rails, Canals, Bridges &amp; More</i></a>. The maps accompany the chapters on bridges and Pennsylvania's borders. I collaborated with the authors and did additional research to create the necessary data.</p>
+                
+                <p>The maps had to be in grayscale and no larger than 5" x 9" each. They were all developed in ArcGIS Desktop and customized in Illustrator.</p>
+                <ul>
+                    <li><b>See the maps: </b><a href="maps/Native_American_Tribes_PA.jpg" target="_blank">Native American Tribes of Pennsylvania</a>, <a href="maps/Royal_Proclamation_1763.jpg" target="_blank">Royal Proclamation of 1763</a>, <a href="maps/Pennsylvania_Borders.jpg" target="_blank">Pennsylvania's Borders</a>, <a href="maps/Pittsburgh_Bridge_Count.jpg" target="_blank">Pittsburgh Bridge Count</a></li>
+                    <li><b>Data sources: </b><a href="http://www.native-languages.org/pennsylvania.htm" target="_blank">Native Languages of the Americas</a>, <a href="https://www.census.gov/geo/maps-data/data/tiger-line.html" target="_blank">U.S. Census Bureau</a>, <a href="https://www.arcgis.com/home/search.html?q=owner%3Aesri_dm&start=1&sortOrder=desc&sortField=relevance" target="_blank">Esri Data and Maps</a>, <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+                    <li><b>Software used: </b><a href="http://desktop.arcgis.com/en/" target="_blank">ArcGIS Desktop</a>, <a href="http://www.adobe.com/products/illustrator.html" target="_blank">Adobe Illustrator</a></li>
+                </ul>
+            </div>
+        </section>        
+        
+        <section class="project">
             <a href="maps/Squirrel_Hill Business_District.jpg" target="_blank"><img src="images/SquirrelHillBusinessDistrict_cropped.jpg" alt="Squirrel Hill Business District map thumbnail" class="project-image"></a>
             <div>
                 <h3><a href="maps/Squirrel_Hill Business_District.jpg" target="_blank">Maps for Squirrel Hill: A Neighborhood History</a></h3>
                 <p>Collaborating with the Squirrel Hill Historical Society and editor Helen Wilson, I developed three maps for their book, <a href="https://www.amazon.com/Squirrel-Hill-Neighborhood-American-Chronicles/dp/1467136255" target="_blank"><i>Squirrel Hill: A Neighborhood History</i></a>.</p>
-                <p>The maps had to be in grayscale, no larger than 5" x 9", and could only use Arial fonts. They were all developed in ArcGIS Desktop and customized in Illustrator.</p>
+                <p>The maps had to be in grayscale and no larger than 5" x 9" each. They were all developed in ArcGIS Desktop and customized in Illustrator.</p>
                 <ul>
                     <li><b>See the maps: </b><a href="maps/Squirrel_Hill Business_District.jpg" target="_blank">Squirrel Hill Business District</a>, <a href="maps/Squirrel_Hill_Borders.jpg" target="_blank">The Borders of Squirrel Hill</a>, <a href="maps/Pittsburgh_Neighborhoods.jpg" target="_blank">Pittsburgh Neighborhoods</a></li>
                     <li><b>Data sources: </b><a href="http://pittsburghpa.gov/dcp/gis/gis-data-new" target="_blank">City of Pittsburgh</a>, <a href="http://www.pasda.psu.edu/uci/SearchResults.aspx?originator=Allegheny%20County&Keyword=&sessionID=405818048201632052046&searchType=originator&entry=PASDA" target="_blank">Allegheny County</a>, <a href="https://www.arcgis.com/home/search.html?q=owner%3Aesri_dm&start=1&sortOrder=desc&sortField=relevance" target="_blank">Esri Data and Maps</a></li>
