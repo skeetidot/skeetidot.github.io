@@ -65,6 +65,7 @@ figure {
     width: 100%;
 }
 
+/*
 ::-webkit-selection {
     color: #fff;
     background: #da1212;
@@ -79,6 +80,7 @@ figure {
     color: #fff;
     background: #da1212;
 }
+*/
 
 #fh5co-page {
     width: 100%;
