@@ -763,6 +763,8 @@ body.offcanvas .fh5co-nav-toggle {
     background: inherit;
     width: 100%;
     margin-left: 0;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .fh5co-feature {
