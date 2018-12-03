@@ -1051,7 +1051,8 @@ body.offcanvas .fh5co-nav-toggle {
 */
 
 .modal-content {
-    width: 150%;
+    width: 250%;
+    margin-left: -50%;
 }
 
 .modal-header {
