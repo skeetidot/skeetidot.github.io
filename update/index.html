@@ -11,9 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lauren Winkler: Print and Web Cartography Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-    <meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-    <meta name="author" content="FreeHTML5.co" />
+    <meta name="description" content="Lauren Winkler: Print and Web Cartography Portfolio" />
+    <meta name="keywords" content="Lauren Winkler, cartography, portfolio" />
+    <meta name="author" content="Lauren Winkler" />
 
     <!-- 
 	//////////////////////////////////////////////////////
@@ -43,8 +43,9 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -53,7 +54,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
 
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -61,6 +62,11 @@
 
     <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -76,27 +82,34 @@
 
     <div id="fh5co-page">
         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-        
+
         <!-- Sidebar -->
         <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
-            
+
             <!-- Logo -->
-            <h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
-            
+            <h1 id="fh5co-logo"><a href="index.html"><img src="../images/Headshot_Small.jpg" class="rounded-circle" alt="Lauren Winkler"></a></h1>
+
+            <div id="title">Lauren Winkler</div>
+            <div id="subtitle">Web and Print Cartography</div>
+            <div id="tagline">Bringing historical and cultural data to life through geovisualization</div>
+
+            <hr>
+
             <!-- Menu -->
             <nav id="fh5co-main-menu" role="navigation">
                 <ul>
-                    <li><a href="#about">Home</a></li>
+                    <!--                    <li><a href="#about">Home</a></li>-->
                     <li><a href="#webPortfolio">Web</a></li>
                     <li><a href="#printPortfolio">Print</a></li>
-<!--                    <li><a href="#features">About</a></li>-->
+                    <!--                    <li><a href="#features">About</a></li>-->
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="../resume/Resume_LaurenWinkler.pdf" target="_blank">Resume</a></li>
                 </ul>
             </nav>
 
             <!-- Footer -->
             <div class="fh5co-footer">
-                <p><small>&copy; 2018 Lauren Winkler</small></p>
+                <p>&copy; 2018 Lauren Winkler</p>
                 <ul>
                     <li><a href="https://github.com/skeetidot" target="_blank"><i class="icon-github"></i></a></li>
                     <li><a href="https://twitter.com/skeetidot" target="_blank"><i class="icon-twitter"></i></a></li>
@@ -110,36 +123,36 @@
         <div id="fh5co-main">
 
             <!-- About -->
+            <!--
             <div class="fh5co-narrow-content" id="about">
                 <div class="row">
                     <div class="col-md-5">
-                        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Lauren Winkler<span><h3>Print and Web Cartography</h3></span></h2>
-                        <p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">Certified GIS professional with industry experience designing print and web maps</p>
-                        <p class="animate-box" data-animate-effect="fadeInLeft">Bringing historical and cultural data to life through geovisualizations</p>    
+                        <h3 class="animate-box" data-animate-effect="fadeInLeft">About</h3>
+                            <p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">Certified GIS professional with industry experience designing print and web maps</p>
+                            <p class="animate-box" data-animate-effect="fadeInLeft">I am a GIT specialist, cartographer, systems analyst, and technical writer who enjoys bringing historical and cultural data to life through geovisualization</p>
                     </div>
                     <div class="col-md-6 col-md-push-1 animate-box" data-animate-effect="fadeInLeft">
-                        <img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
                     </div>
                 </div>
-
             </div>
+-->
 
             <!-- Web Portfolio -->
             <div class="fh5co-narrow-content" id="webPortfolio">
-                <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Web Cartography</span></h2>
-            
-            
+                
+                <h3 class="animate-box" data-animate-effect="fadeInLeft">Web Cartography</h3>
+
                 <div class="row animate-box" data-animate-effect="fadeInLeft">
 
                     <!-- Homestead Hebrews -->
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-                        <a href="work.html">
+                        <a data-toggle="modal" data-target="#exampleModal">
                             <img src="../images/HomesteadHebrews.jpg" alt="Homestead Hebrews Map" class="img-responsive">
                             <h3 class="fh5co-work-title">Homestead Hebrews</h3>
-                            <p>An interactive map of the historic Jewish community <br>of Homestead, Pennsylvania</p>
-                            <p class="demoLink"><a href="http://maps.homesteadhebrews.com" target="_blank">View the Site</a></p>
                         </a>
-                    </div>
+                        <p class="description">An interactive map of the historic Jewish community <br>of Homestead, Pennsylvania</p>
+                        <p class="demoLink"><a href="http://maps.homesteadhebrews.com" target="_blank">View the Site</a></p>  
+                    </div>                  
 
                     <!-- Ding Darling Visitor Map -->
                     <div class="clearfix visible-sm-block"></div>
@@ -147,9 +160,9 @@
                         <a href="work.html">
                             <img src="../images/DingDarlingNWR.jpg" alt="J.N. 'Ding' Darling National Wildlife Refuge Visitor Map" class="img-responsive">
                             <h3 class="fh5co-work-title">J.N. 'Ding' Darling <br>National Wildlife Refuge Visitor Map</h3>
-                            <p>A responsive map of America's birding hotspot in Sanibel, Florida</p>
-                            <p class="demoLink"><a href="https://skeetidot.github.io/ding-darling-nwr" target="_blank">View the Site</a></p>                            
                         </a>
+                        <p class="description">A responsive map of America's birding hotspot in Sanibel, Florida</p>
+                        <p class="demoLink"><a href="https://skeetidot.github.io/ding-darling-nwr" target="_blank">View the Site</a></p>                        
                     </div>
 
                     <!-- Nitrates and Cancer in Wisconsin -->
@@ -158,150 +171,165 @@
                         <a href="work.html">
                             <img src="../images/WisconsinNitratesCancer.jpg" alt="Spatial Analysis of Nitrates and Cancer in Wisconsin" class="img-responsive">
                             <h3 class="fh5co-work-title">Nitrates and Cancer in Wisconsin</h3>
-                            <p>A spatial analysis of well nitrates and <br>cancer occurrences in Wisconsin</p>
-                            <p class="demoLink"><a href="https://skeetidot.github.io/nitrates_cancer/" target="_blank">View the Site</a></p>                            
                         </a>
+                        <p class="description">A spatial analysis of well nitrates and <br>cancer occurrences in Wisconsin</p>
+                        <p class="demoLink"><a href="https://skeetidot.github.io/nitrates_cancer/" target="_blank">View the Site</a></p>                        
                     </div>
-                    
+
+                    <!-- Sanborn Maps of Milwaukee -->
                     <div class="clearfix visible-md-block"></div>
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Logo, Branding, Web</p>
+                            <img src="../images/MilwaukeeSanborns.jpg" alt="1910 Sanborn Maps of Milwaukee" class="img-responsive">
+                            <h3 class="fh5co-work-title">1910 Sanborn Maps of Milwaukee</h3>
                         </a>
-                    </div>                    
+                        <p class="description">A responsive map to explore 1910 Milwaukee, Wisconsin</p>
+                        <p class="demoLink"><a href="http://webgis.uwm.edu/agsl/sanborn/" target="_blank">View the Site</a></p>                        
+                    </div>
 
+                    <!-- Evolution of Pittsburgh's River Bridges -->
                     <div class="clearfix visible-md-block"></div>
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Logo, Branding, Web</p>
+                            <img src="../images/PittsburghBridgesDynamic.jpg" alt="Evolution of Pittsburgh's River Bridges" class="img-responsive">
+                            <h3 class="fh5co-work-title">Evolution of Pittsburgh's River Bridges</h3>
                         </a>
+                        <p class="description">Interactive companion to <a href="http://www.amazon.com/Pittsburghs-Bridges-Images-America-Wilson/dp/1467134244" target="_blank"><i>Pittsburgh's Bridges (Images of America)</i></a></p>
+                        <p class="demoLink"><a href="http://skeetidot.github.io/pittsburgh-bridges/" target="_blank">View the Site</a></p>
                     </div>
 
+                    <!-- Kenyan Lighting Sources -->
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Branding</p>
+                            <img src="../images/Kenya_Lighting_Sources.jpg" alt="Kenya Lighting Sources" class="img-responsive">
+                            <h3 class="fh5co-work-title">Lighting Energy Sources in Kenya</h3>
                         </a>
+                        <p class="description">Electric vs. traditional lighting across Kenyan counties</p>
+                        <p class="demoLink"><a href="http://skeetidot.github.io/kenya-lighting-sources/" target="_blank">View the Site</a></p>                        
                     </div>
                     <div class="clearfix visible-md-block visible-sm-block"></div>
 
+                    <!-- Kentucky Unemployment -->
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_7.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Web, Illustration</p>
+                            <img src="../images/KY_Unemployment.jpg" alt="Unemployment Rates in Kentucky" class="img-responsive">
+                            <h3 class="fh5co-work-title">Unemployment Rates in Kentucky</h3>
                         </a>
+                        <p class="description">Unemployment rates in Kentucky between 2001 and 2013</p>
+                        <p class="demoLink"><a href="http://skeetidot.github.io/ky-unemployment/" target="_blank">View the Site</a></p>                        
                     </div>
+
+                    <!-- Kentucky Vacant Housing -->
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_8.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Branding, Web</p>
+                            <img src="../images/KY_Vacant_Housing.jpg" alt="Vacant Housing in Kentucky" class="img-responsive">
+                            <h3 class="fh5co-work-title">Vacant Housing in Kentucky</h3>
                         </a>
+                        <p class="description">Various types of vacant housing (rentals, houses for sale, seasonal properties, etc.) in Kentucky, as obtained from the 2010 U.S. Census</p>
+                        <p class="demoLink"><a href="http://skeetidot.github.io/ky-vacant-housing/" target="_blank">View the Site</a></p>                        
                     </div>
+
+                    <!-- Pennsylvania Historic Truss Bridges -->
                     <div class="clearfix visible-sm-block"></div>
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Illustration, Branding</p>
+                            <img src="../images/PAHistoricTrussBridges_JS.jpg" alt="Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania" class="img-responsive">
+                            <h3 class="fh5co-work-title">Heritage at Risk: The Loss of Historic Metal Truss Bridges in Pennsylvania</h3>
                         </a>
+                        <p class="description">Documenting lost and at risk metal truss bridges in Pennsylvania</p>
+                        <p class="demoLink"><a href="http://skeetidot.github.io/pa-truss-bridges" target="_blank">View the Site</a></p>                        
+                    </div>
+                    <div class="clearfix visible-md-block"></div>
+
+                    <!-- Power Plants in the US -->
+                    <div class="clearfix visible-sm-block"></div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                        <a href="work.html">
+                            <img src="../images/CoalHydroWindPowerPlants.jpg" alt="Power Near and Far: Coal, Hydroelectric, and Wind Power Plants in the US" class="img-responsive">
+                            <h3 class="fh5co-work-title">Power Near and Far</h3>
+                        </a>
+                        <p class="description">Coal, hydroelectric, and wind power plants in the US</p>
+                        <p class="demoLink"><a href="http://skeetidot.github.io/us-power-plants/" target="_blank">View the Site</a></p>                        
+                    </div>
+                    <div class="clearfix visible-md-block"></div>
+
+                    <!-- Power Plants in the US -->
+                    <div class="clearfix visible-sm-block"></div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                        <a href="work.html">
+                            <img src="../images/USCancerMortalityRates.jpg" alt="US Cancer Mortality Rates" class="img-responsive">
+                            <h3 class="fh5co-work-title">US Cancer Mortality Rates</h3>
+                        </a>
+                        <p class="description">CARTO web map showing the average cancer mortality rate from 2008-2012 in each US county, per 100,000 people.</p>
+                        <p class="demoLink"><a href="https://skeetidot.cartodb.com/viz/8b09e346-95a1-11e5-9723-0e3ff518bd15/embed_map" target="_blank">View the Site</a></p>                        
                     </div>
                     <div class="clearfix visible-md-block"></div>
 
                 </div>
             </div>
-    
+
             <!-- Print Portfolio -->
             <div class="fh5co-narrow-content" id="printPortfolio">
-                <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Print Cartography</span></h2>
+
+                <h3 class="animate-box" data-animate-effect="fadeInLeft">Print Cartography</h3>
+
                 <div class="row animate-box" data-animate-effect="fadeInLeft">
 
+                    <!-- Pittsburgh's Bridges Poster -->
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Illustration, Branding</p>
+                            <img src="../maps/Pittsburgh_Bridges_Poster.jpg" alt="Pittsburgh's Bridges poster" class="img-responsive">
+                            <h3 class="fh5co-work-title">Pittsburgh's Bridges</h3>
                         </a>
+                        <p class="description">Companion poster to <a href="http://www.amazon.com/Pittsburghs-Bridges-Images-America-Wilson/dp/1467134244" target="_blank"><i>Pittsburgh's Bridges (Images of America)</i></a></p>
                     </div>
 
+                    <!-- Maps for Engineering Pittsburgh Book -->
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Web, Packaging</p>
+                            <img src="../maps/Native_American_Tribes_PA.jpg" alt="Maps for Engineering Pittsburgh: A History of Roads, Rails, Canals, Bridges &amp; More" class="img-responsive">
+                            <h3 class="fh5co-work-title">Maps for Engineering Pittsburgh: A History of Roads, Rails, Canals, Bridges &amp; More</h3>
                         </a>
+                        <p class="description">Four maps for <a href="https://www.arcadiapublishing.com/Products/9781625859693" target="_blank"><i>Engineering Pittsburgh: A History of Roads, Rails, Canals, Bridges &amp; More</i></a>.</p>
                     </div>
 
+                    <!-- Maps for Squirrel Hill Book -->
                     <div class="clearfix visible-sm-block"></div>
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Branding, Web</p>
+                            <img src="../images/SquirrelHillBusinessDistrict_cropped.jpg" alt="Maps for Squirrel Hill: A Neighborhood History" class="img-responsive">
+                            <h3 class="fh5co-work-title">Maps for Squirrel Hill: A Neighborhood History</h3>
                         </a>
+                        <p class="description">Three maps for <a href="https://www.amazon.com/Squirrel-Hill-Neighborhood-American-Chronicles/dp/1467136255" target="_blank"><i>Squirrel Hill: A Neighborhood History</i></a>.</p>
                     </div>
 
+                    <!-- Appalachian Trail -->
                     <div class="clearfix visible-md-block"></div>
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Logo, Branding, Web</p>
+                            <img src="../images/AppalachianTrail_cropped.jpg" alt="Appalachian Trail map" class="img-responsive">
+                            <h3 class="fh5co-work-title">The Appalachian Trail</h3>
                         </a>
+                        <p class="description">The Appalachian Trail on a georeferenced copy of the 1957 Landforms of the United States map by Erwin Raisz.</p>                        
                     </div>
 
+                    <!-- North Coast Community Homes -->
                     <div class="clearfix visible-sm-block"></div>
                     <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
                         <a href="work.html">
-                            <img src="images/work_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Web, Packaging, Branding</p>
+                            <img src="../images/NCCH_Properties.jpg" alt="North Coast Community Homes Owned and Managed Properties" class="img-responsive">
+                            <h3 class="fh5co-work-title">North Coast Community Homes Owned and Managed Properties</h3>
                         </a>
+                        <p class="description">Properties owned and managed by the Cuyahoga County, Ohio non-profit</p>     
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-                        <a href="work.html">
-                            <img src="images/work_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Branding</p>
-                        </a>
-                    </div>
-                    <div class="clearfix visible-md-block visible-sm-block"></div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-                        <a href="work.html">
-                            <img src="images/work_7.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Web, Illustration</p>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-                        <a href="work.html">
-                            <img src="images/work_8.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Branding, Web</p>
-                        </a>
-                    </div>
-                    <div class="clearfix visible-sm-block"></div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-                        <a href="work.html">
-                            <img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <h3 class="fh5co-work-title">Work Title Here</h3>
-                            <p>Illustration, Branding</p>
-                        </a>
-                    </div>
                     <div class="clearfix visible-md-block"></div>
 
                 </div>
             </div>
 
             <!-- Expertise -->
-<!--
+            <!--
             <div class="fh5co-narrow-content fh5co-border-bottom" id="features">
                 <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Expertise</span></h2>
                 <div class="row">
@@ -355,24 +383,141 @@
             </div>
 -->
 
+            <!-- Contact -->
+            <div class="fh5co-more-contact">
+                <div class="fh5co-narrow-content" id="contact">
+
+                <h3 class="animate-box" data-animate-effect="fadeInLeft">Contact</h3>
+
+                <div data-animate-effect="fadeInLeft">                        
+                    <div class="row">
+
+                        <div class="col-md-5">
+                            <div class="fh5co-feature fh5co-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fh5co-icon">
+                                    <i class="icon-envelope-o"></i>
+                                </div>
+                                <div class="fh5co-text">
+                                    <p><a href="mailto:lewinkler@gmail.com" target="_blank">lewinkler@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="fh5co-feature fh5co-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fh5co-icon">
+                                    <i class="icon-github"></i>
+                                </div>
+                                <div class="fh5co-text">
+                                    <p><a href="https://github.com/skeetidot" target="_blank">github.com/skeetidot</a></p> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="fh5co-feature fh5co-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fh5co-icon">
+                                    <i class="icon-twitter"></i>
+                                </div>
+                                <div class="fh5co-text">
+                                    <p><a href="https://twitter.com/skeetidot" target="_blank">@skeetidot</a></p>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="fh5co-feature fh5co-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fh5co-icon">
+                                    <i class="icon-linkedin"></i>
+                                </div>
+                                <div class="fh5co-text">
+                                    <p><a href="https://www.linkedin.com/in/lauren-winkler-a8a1143" target="_blank">LinkedIn</a></p>  
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+            <!-- Modal Windows -->
+
+            <!-- Homestead Hebrews Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">Homestead Hebrews
+                            <div class="modal-subtitle">An Interactive Map for Exploring the Lost Jewish Community of Homestead, Pennsylvania</div></h3>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>                            
+
+                        </div>
+                        <div class="modal-body">
+                            
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/HomesteadHebrews.jpg">
+                            </div>
+                            <div class="col-md-4-auto">
+                                <p>This interactive map shows the Jewish community of Homestead, Pennsylvania from 1890-1918, as recorded in the city directories. Users can scroll through the time slider to examine the changing patterns of Jewish settlement, and then click a record to get more information about the people who lived there in that year. Users can also search for a person by name, search for a current or historic address, symbolize residents by birth country or profession, and examine historic Sanborn maps of the community.</p>
+
+                                <p>The historic maps in the background are Sanborn fire insurance maps from all available years between 1890 and 1918. The Sanborns were previously only available as paper maps and digital image files. By georeferencing them, stitching them together, and publishing them as hosted tile layers in ArcGIS Online, and I was able to bring them to life in this site.</p>
+
+                                <p>City directory records and genealogical data were provided by Tammy Hepps. For more information, visit <a href="http://homesteadhebrews.com/" target="_blank">Homestead Hebrews</a>. Based on existing street centerlines and the georeferenced Sanborn maps, I used ArcGIS to develop historic street centerlines and address ranges for each year with Sanborn maps, and then geocoded the directory records against those street centerlines and manually updated them to locate all residents at their residential address listed in the directory.</p>
+
+                                <p>The site was developed in Leaflet, with data stored in GeoJSON files. It is based on Boilerplate HTML and Bootstrap, with user interface elements from jQuery and various Leaflet plugins.</p>
+
+                                <ul>
+                                    <li><b>Data sources: </b>
+                                        <a href="http://data.homesteadhebrews.com/sources/show/14/homestead-directory/" target="_blank">Homestead Hebrews</a>, <a href="http://www.donslist.net/PGHLookups/GuidesM.htm" target="_blank">Don's List</a>, <a href="https://digital.libraries.psu.edu/digital/collection/maps1/search/searchterm/%0bHomestead!Sanborn%20Fire%20Insurance%20Maps/field/geogra!collec/mode/all!exact/conn/and!or/order/nosort" target="_blank">Penn State University Library</a>, <a href="http://openac-alcogis.opendata.arcgis.com" target="_blank">Allegheny County GIS Open Data</a>
+                                    </li>
+                                    <li><b>Development languages: </b><a href="http://leafletjs.com/" target="_blank">Leaflet</a>, <a href="http://esri.github.io/esri-leaflet/" target="_blank">Esri Leaflet plugin</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, <a href="https://jqueryui.com/" target="_blank">jQuery UI</a>, JavaScript, HTML, CSS</li>
+                                    <li><b>Software used: </b><a href="https://github.com/" target="_blank">GitHub</a>, <a href="http://brackets.io/" target="_blank">Brackets</a>,
+                                        <a href="http://desktop.arcgis.com/en/" target="_blank">ArcGIS Desktop</a>, <a href="http://www.arcgis.com/index.html" target="_blank">ArcGIS Online</a></li>
+                                </ul>
+                                
+                            </div>
+                          </div>
+                        </div>                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"><a href="http://maps.homesteadhebrews.com" target="_blank">View the Site</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/watch?v=gXmyS8zY4XM" target="_blank">View a Demo</a></button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
     </div>
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
+
     <!-- jQuery Easing -->
     <script src="js/jquery.easing.1.3.js"></script>
+
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+
     <!-- Carousel -->
     <script src="js/owl.carousel.min.js"></script>
+
     <!-- Stellar -->
     <script src="js/jquery.stellar.min.js"></script>
+
     <!-- Waypoints -->
     <script src="js/jquery.waypoints.min.js"></script>
+
     <!-- Counters -->
     <script src="js/jquery.countTo.js"></script>
-
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
