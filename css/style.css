@@ -154,7 +154,7 @@ figure {
     line-height: 1.2em;
     font-family: "Fira Sans", Roboto, sans-serif;
     margin-bottom: 0px !important;
-    padding-bottom: 0px !important;
+    margin-bottom: 20px !important;
 }
 
 #fh5co-aside #subtitle {
@@ -337,11 +337,11 @@ figure {
     text-align: center;
     bottom: 0px;
     position: absolute;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 #fh5co-aside .favicon-credit a {
-    color: rgba(245, 245, 245, 0.3);   
+    color: rgba(245, 245, 245, 0.3);
 }
 
 /**********************************************************/
@@ -632,7 +632,7 @@ body.offcanvas .fh5co-nav-toggle {
     .contactText {
         font-size: 16px !important;
         line-height: 2.5em;
-    }  
+    }
 }
 
 .fh5co-feature {
@@ -685,7 +685,7 @@ body.offcanvas .fh5co-nav-toggle {
 @media screen and (max-width: 480px) {
     .fh5co-feature .fh5co-text {
         width: 72%;
-    }  
+    }
 }
 
 .fh5co-feature .fh5co-text h2,
@@ -738,10 +738,10 @@ body.offcanvas .fh5co-nav-toggle {
 */
 
 .modal-open {
-  position: fixed !important;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     overflow-y: scroll;
     margin: 0px !important;
 }
